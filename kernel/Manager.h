@@ -21,5 +21,5 @@ public:
 		DECORATION DECORATION = {L"", L"", L"", L"" }
 	);
 void removeRootEntry(const std::wstring& NAME);
-	
+void printRootEntries();
 };

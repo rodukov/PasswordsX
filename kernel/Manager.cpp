@@ -18,9 +18,16 @@ void Manager::removeRootEntry(
 	const std::wstring& NAME
 ) {
 	// WARNING: DEMONSTATION REPLACEMENT auto AND ->
+	// OPTIMIZATION required
 	for (std::vector<Entry>::iterator object = rootEntries.begin();
 		object != rootEntries.end();
 		++object)
 	if ((*object).NAME == NAME) { rootEntries.erase(object); return; }
 	
+}
+
+void Manager::printRootEntries() {
+	for (auto& object : rootEntries) {
+		std::wcout << object.NAME << std::endl;
+	}
 }

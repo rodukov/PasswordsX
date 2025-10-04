@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:formatkit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Entry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,41 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 183,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "formatkit.cpp",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp",
               "RelativeDocumentMoniker": "formatkit.cpp",
               "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp",
               "RelativeToolTip": "formatkit.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-04T19:33:39.999Z"
+              "WhenOpened": "2025-10-04T19:33:39.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "kernel.cpp",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp",
               "RelativeDocumentMoniker": "kernel.cpp",
               "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp",
               "RelativeToolTip": "kernel.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-04T09:31:39.651Z"
+              "WhenOpened": "2025-10-04T09:31:39.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Manager.cpp",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp",
               "RelativeDocumentMoniker": "Manager.cpp",
-              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp*",
-              "RelativeToolTip": "Manager.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp",
+              "RelativeToolTip": "Manager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-04T19:17:04.722Z",
               "EditorCaption": ""
@@ -94,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Manager.h",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h",
               "RelativeDocumentMoniker": "Manager.h",
               "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h",
               "RelativeToolTip": "Manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-04T19:12:02.978Z",
               "EditorCaption": ""
