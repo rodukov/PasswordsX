@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:formatkit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:formatkit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Entry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:Entry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{01EACA3F-9D9D-4477-859A-30C1E474B763}|kernel.vcxproj|solutionrelative:kernel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 160,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 180,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,26 +48,66 @@
               "RelativeDocumentMoniker": "kernel.cpp",
               "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\kernel.cpp",
               "RelativeToolTip": "kernel.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-04T09:31:39.651Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formatkit.cpp",
+              "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp",
+              "RelativeDocumentMoniker": "formatkit.cpp",
+              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.cpp",
+              "RelativeToolTip": "formatkit.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-05T17:07:02.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formatkit.h",
+              "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.h",
+              "RelativeDocumentMoniker": "formatkit.h",
+              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\formatkit.h",
+              "RelativeToolTip": "formatkit.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-05T17:06:21.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cpp",
+              "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp",
+              "RelativeDocumentMoniker": "Manager.cpp",
+              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.cpp",
+              "RelativeToolTip": "Manager.cpp",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-04T19:17:04.722Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 240,
+          "DockedWidth": 220,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Entry.h",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Entry.h",
               "RelativeDocumentMoniker": "Entry.h",
               "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Entry.h",
               "RelativeToolTip": "Entry.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-04T10:08:38.607Z",
               "IsPinned": true,
@@ -60,6 +116,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Manager.h",
+              "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h",
+              "RelativeDocumentMoniker": "Manager.h",
+              "ToolTip": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Manager.h",
+              "RelativeToolTip": "Manager.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-04T19:12:02.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Group.h",
               "DocumentMoniker": "C:\\Users\\elect\\Documents\\GitHub\\PasswordsX\\kernel\\Group.h",
               "RelativeDocumentMoniker": "Group.h",

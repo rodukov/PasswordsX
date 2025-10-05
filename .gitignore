@@ -1,0 +1,117 @@
+## -----------------------
+## Visual Studio
+## -----------------------
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2022+
+.vs/
+
+# Generated files
+*.pch
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.ilk
+*.meta
+*.tlog
+*.cache
+*.log
+*.vsidx
+
+# Backup & auto-generated files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+*.sdf
+*.sqlite
+*.dbmdl
+
+# Build artifacts
+*.exe
+*.dll
+*.lib
+*.app
+*.sys
+*.msi
+*.nupkg
+*.obj
+*.exp
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored if packages are restored via MSBuild
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Other IDEs
+*.code-workspace
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+out/
+build/
+
+# Others
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local settings
+*.env
+*.local
+*.ini
+
+# Temporary
+temp/
+tmp/
+*.log

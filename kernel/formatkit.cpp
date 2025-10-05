@@ -28,8 +28,8 @@ static std::unordered_map<std::wstring, std::wstring> formats = {
 };
 
 /* Universal Print Function */
-void colorPrint(const std::wstring& fgColor,
-    const std::wstring& text,
+void print(const std::wstring& text,
+    const std::wstring& fgColor,
     const std::wstring& format,
     const std::wstring& bgColor)
 {
