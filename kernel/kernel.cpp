@@ -18,7 +18,7 @@ int main() {
     dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
     SetConsoleMode(hOut, dwMode);
 
-    print(L"Менеджер паролей alpha-0.12", L"white", L"bold", L"blue");
+    print(L"Менеджер паролей alpha-0.1", L"white", L"bold", L"blue");
 
     Manager manager;
     manager.addRootEntry(L"Server Access", L"root@144.2.253.150", L"Ex4(KF5K3(#(55$JSDl12eleven", L"", L"corporate server access #58483", { L"red", L"", L"", L"" });
