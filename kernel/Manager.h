@@ -8,10 +8,10 @@ class Manager {
 private:
 	std::vector<Entry> rootEntries;
 	std::vector<Group> rootGroups;
-
-	// * findGroup(const std::wstring& path);
-	// void listGroup();
+	// recursive
+	Group* getGroup(const std::wstring& path);
 public:
+	/* Root Directory Methods */
 	void addRootEntry(
 		const std::wstring& NAME,
 		const std::wstring& LOGIN,
@@ -19,8 +19,25 @@ public:
 		const std::wstring& URL = L"",
 		const std::wstring& NOTE = L"",
 		DECORATION DECORATION = {L"", L"", L"", L"" }
-	); // adds entry to Root directory
-	void removeRootEntry(const std::wstring& NAME); // removes entry in Root directory
-	void printRootNames(); // print entries name only in Root directory
-	Entry* findRootEntry(const std::wstring& NAME);
+	); // creates entry to Root directory
+	void removeRootEntry(const std::wstring& NAME);
+	void printRootNames();
+	Entry* getRootEntry(const std::wstring& NAME);
+
+	/* Group Methods */
+	void tree();
+	Group* createGroup(const std::wstring& path);
+	void addGroupEntry(
+		const std::wstring& path,
+		const std::wstring& NAME,
+		const std::wstring& LOGIN,
+		const std::wstring& PASSWD,
+		const std::wstring& URL = L"",
+		const std::wstring& NOTE = L"",
+		DECORATION DECORATION = { L"", L"", L"", L"" }
+	);
+
+	/* prints names ONLY for selected folder */
+	void printGroupEntriesNames(const std::wstring& path);
+
 };
