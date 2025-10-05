@@ -1,5 +1,6 @@
-#include "Manager.h"
+﻿#include "Manager.h"
 #include "split.h"
+#include "formatkit.h"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -109,4 +110,40 @@ void Manager::printGroupEntriesNames(const std::wstring& path) {
     for (auto& Y : X->entries) {
         std::wcout << Y.NAME << std::endl;
     }
+}
+
+/* complex tree */
+void printTree(const std::vector<Group>& groups, const std::wstring& prefix = L"") {
+    for (size_t i = 0; i < groups.size(); ++i) {
+        const auto& group = groups[i];
+        bool isLastGroup = (i == groups.size() - 1);
+
+        std::wcout << prefix;
+        std::wcout << (isLastGroup ? L"└───" : L"├───") << group.groupName << L"/" << std::endl;
+
+        // Печатаем все записи внутри группы
+        for (size_t j = 0; j < group.entries.size(); ++j) {
+            bool isLastEntry = (j == group.entries.size() - 1) && group.subGroups.empty();
+            std::wcout << prefix;
+            std::wcout << (isLastGroup ? L"    " : L"│   ");
+            std::wcout << (isLastEntry ? L"└───" : L"├───") << group.entries[j].NAME << std::endl;
+        }
+
+        // Рекурсивно печатаем подгруппы
+        std::wstring newPrefix = prefix + (isLastGroup ? L"    " : L"│   ");
+        printTree(group.subGroups, newPrefix);
+    }
+}
+
+void Manager::tree() {
+
+    print(L"Root/", L"white", L"bold", L"red");
+
+    // Печатаем корневые записи
+    for (size_t i = 0; i < rootEntries.size(); ++i) {
+        std::wcout << L"├───" << rootEntries[i].NAME << std::endl;
+    }
+
+    // Печатаем все группы рекурсивно
+    printTree(rootGroups);
 }
