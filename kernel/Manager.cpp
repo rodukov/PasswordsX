@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+
 void Manager::addRootEntry(
 	const std::wstring& NAME,
 	const std::wstring& LOGIN,
@@ -17,17 +18,16 @@ void Manager::addRootEntry(
 void Manager::removeRootEntry(
 	const std::wstring& NAME
 ) {
-	// WARNING: DEMONSTATION REPLACEMENT auto AND ->
-	// OPTIMIZATION required
-	for (std::vector<Entry>::iterator object = rootEntries.begin();
-		object != rootEntries.end();
-		++object)
-	if ((*object).NAME == NAME) { rootEntries.erase(object); return; }
+	for (auto object = rootEntries.begin(); object != rootEntries.end(); ++object)
+	if (object->NAME == NAME) { rootEntries.erase(object); return; }
 	
 }
 
-void Manager::printRootEntries() {
-	for (auto& object : rootEntries) {
-		std::wcout << object.NAME << std::endl;
-	}
+void Manager::printRootNames() {
+	for (auto& object : rootEntries) std::wcout << object.NAME << std::endl;
+}
+
+Entry* Manager::findRootEntry(const std::wstring& NAME) {
+	for (auto& object : rootEntries) if (object.NAME == NAME) return &object;
+	return nullptr;
 }

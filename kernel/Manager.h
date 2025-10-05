@@ -19,7 +19,8 @@ public:
 		const std::wstring& URL = L"",
 		const std::wstring& NOTE = L"",
 		DECORATION DECORATION = {L"", L"", L"", L"" }
-	);
-void removeRootEntry(const std::wstring& NAME);
-void printRootEntries();
+	); // adds entry to Root directory
+	void removeRootEntry(const std::wstring& NAME); // removes entry in Root directory
+	void printRootNames(); // print entries name only in Root directory
+	Entry* findRootEntry(const std::wstring& NAME);
 };
